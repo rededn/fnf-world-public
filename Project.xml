@@ -43,8 +43,8 @@
 
 	<classpath name="source" />
 	
-	<assets path="mobile" rename="assets/mobile" if="mobile" /> <!-- to not have the mobile assets in another builds -saw -->
 	
+
 	<!-- PSYCH ENGINE CUSTOMIZATION -->
 	<define name="MODS_ALLOWED" if="desktop || mobile" />
 	<define name="LUA_ALLOWED" if="desktop || mobile" />
